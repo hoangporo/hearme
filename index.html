@@ -89,7 +89,7 @@
                       return false
                   }
                   setTimeout(function() {
-                      swal("Mở khoá thành công rồi nè hihi!", "Quay 1 lần rồi chụp màng hình lại ngay nha mấy bé!", "success");
+                      swal("Mở khoá thành công rồi nà mấy bạn!", "Quay 1 lần rồi chụp màng hình lại ngay nha mấy bé!", "success");
                   }, 2000);
               });
       }
@@ -140,49 +140,49 @@ $( ".lammoipopupnhantien" ).hover(
           'segments': [{
               'fillStyle': '#CC33FF',
               'text': 'Tự chọn',
-              'size': winwheelPercentToDegrees(24),
+              'size': winwheelPercentToDegrees(7),
               'textFontSize': 24,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#99CC99',
               'text': 'Đội 2',
-              'size': winwheelPercentToDegrees(20),
+              'size': winwheelPercentToDegrees(30),
               'textFontSize': 28,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#CC33FF',
               'text': 'Quan sát',
-              'size': winwheelPercentToDegrees(16),
+              'size': winwheelPercentToDegrees(5),
               'textFontSize': 20,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#99CC99',
               'text': 'Đội 3',
-              'size': winwheelPercentToDegrees(15),
+              'size': winwheelPercentToDegrees(30),
               'textFontSize': 24,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#FF33CC',
               'text': 'Đội 1',
-              'size': winwheelPercentToDegrees(12),
+              'size': winwheelPercentToDegrees(10),
               'textFontSize': 22,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#993333',
               'text': 'Đội 4',
-              'size': winwheelPercentToDegrees(10),
+              'size': winwheelPercentToDegrees(25),
               'textFontSize': 20,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#993399',
               'text': 'Đội 1',
-              'size': winwheelPercentToDegrees(3),
+              'size': winwheelPercentToDegrees(20),
               'textFontSize': 18,
               'textFillStyle': '#ffffff'
           }, {
               'fillStyle': '#CC33FF',
               'text': 'Đội Tỷ Cute',
-              'size': winwheelPercentToDegrees(3),
+              'size': winwheelPercentToDegrees(2),
               'textFontSize': 16,
               'textFillStyle': '#ffffff'
           }],
@@ -291,7 +291,7 @@ $( ".lammoipopupnhantien" ).hover(
 
                   document.getElementById("annhantien").style.display = ""; // Hiển thị nút nhận tiền
                  
-                  swal("CHÚC MỪNG THÀNH VIÊN QUÂN ĐOÀN HEARME", "BẠN ĐÃ VỀ ĐỘI " + indicatedSegment.text + "\nBạn còn lại " + (solanquay - dem) + " lần quay\nChú ý: VUI LÒNG CHỤP MÀNG HÌNH !", "success");
+                  swal("CHÚC MỪNG THÀNH VIÊN QUÂN ĐOÀN HEARME", "BẠN ĐÃ VỀ ĐỘI     " + indicatedSegment.text + "\nBạn còn lại " + (solanquay - dem) + " lần quay\nChú ý: VUI LÒNG CHỤP MÀNG HÌNH !", "success");
               }
           } else { // Nếu hết lượt quay(dem = solanquay)
               document.getElementById("xuatluotquay").innerHTML = "0";
@@ -309,7 +309,7 @@ $( ".lammoipopupnhantien" ).hover(
                   document.getElementById("annhantien").style.display = ""; // Hiển thị nút nhận tiền
             
 
-                  swal("CHÚC MỪNG THÀNH VIÊN QUÂN ĐOÀN HEARME", "BẠN ĐÃ QUAY TRÚNG" + indicatedSegment.text + "\nBạn đã hết lượt quay", "success");
+                  swal("CHÚC MỪNG THÀNH VIÊN QUÂN ĐOÀN HEARME", "BẠN ĐÃ QUAY TRÚNG  " + indicatedSegment.text + "\nBạn đã hết lượt quay", "success");
               }
           }
       }
